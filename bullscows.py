@@ -70,25 +70,25 @@ while pokusy > 0:
         print(sep)
     bull_cow = bullscows(number, guess)
     if bull_cow[0] == 1 and bull_cow[1] == 1:
-        print(f'{bull_cow[0]}Bull, {bull_cow[1]}Cow')
+        print(f'{bull_cow[0]} Bull, {bull_cow[1]} Cow')
 
     elif bull_cow[0] == 1 and bull_cow[1] > 1:
-        print(f'{bull_cow[0]}Bull, {bull_cow[1]}Cows')
+        print(f'{bull_cow[0]} Bull, {bull_cow[1]} Cows')
 
-    elif bull_cow[0] > 1 and bull_cow[0] == 1:
-        print(f'{bull_cow[0]}Bulls, {bull_cow[1]}Cow')
+    elif bull_cow[0] > 1 and bull_cow[1] == 1:
+        print(f'{bull_cow[0]} Bulls, {bull_cow[1]} Cow')
 
     elif bull_cow[0] == 0 and bull_cow[1] == 0:
-        print(f'{bull_cow[0]}Bulls, {bull_cow[1]}Cows')
+        print(f'{bull_cow[0]} Bulls, {bull_cow[1]} Cows')
 
     elif bull_cow[0] == 1 and bull_cow[1] == 0:
-        print(f'{bull_cow[0]}Bull, {bull_cow[1]}Cows')
+        print(f'{bull_cow[0]} Bull, {bull_cow[1]} Cows')
 
     elif bull_cow[0] == 0 and bull_cow[1] == 1:
-        print(f'{bull_cow[0]}Bulls, {bull_cow[1]}Cow')
+        print(f'{bull_cow[0]} Bulls, {bull_cow[1]} Cow')
 
     else:
-        print(f'{bull_cow[0]}Bulls, {bull_cow[1]}Cows')
+        print(f'{bull_cow[0]} Bulls, {bull_cow[1]} Cows')
     print(sep)
     if bull_cow[0] == 4:
         print(f'''!You win!
